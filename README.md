@@ -26,3 +26,24 @@ To get started with the Car Dealer App, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Huseynitsu/car-dealer-app
+
+2. Navigate into the project directory:
+   cd your-repo-name
+
+3. Install dependencies:
+   npm install
+
+4. Create a .env.local file in the root directory to store environment variables. Add the following:
+   NEXT_PUBLIC_API_URL=https://vpic.nhtsa.dot.gov/api/vehicles
+
+5. Run the application:
+   npm run dev
+
+Open your browser and go to http://localhost:3000.
+
+## Usage
+1. Open the application in your web browser.
+2. Select a car brand from the dropdown menu.
+3. Choose a model year from the second dropdown.
+4. Click on the "Check results" button to view the available models for the selected make and year.
+5. Navigate back using the "Go Back" button on the results page.
